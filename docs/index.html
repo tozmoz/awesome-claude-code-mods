@@ -3756,10 +3756,10 @@ table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}th{
     <dt>Hooks</dt><dd><code>tool.check, tool.call</code></dd>
     <dt>API calls</dt><dd><code>$.clock.now, $.env.get, $.fs.write, $.session.id</code></dd>
 
-    <dt>Validation on 2.1.296</dt><dd>not verified</dd>
-    <dt>Validator output</dt><dd>Not found in this scan; retained pending weekly retirement review.</dd>
+    <dt>Validation on 2.1.296</dt><dd>Passed with warnings</dd>
+
     <dt>Marketplace failed</dt><dd><a href="https://github.com/bendrucker/claude/blob/43999938f5c9b61e1ae011febb865f46a921f976/.claude-plugin/marketplace.json">bendrucker</a>: plugins[12].name: Plugin name &quot;claude-code&quot; is reserved: it passes as one of Anthropic's own. A third party's plugin name cannot start with &quot;claude-&quot;, &quot;anthropic-&quot;, &quot;anthropics-&quot;, or &quot;cc-plugin-&quot;, be &quot;claude&quot;, &quot;anthropic&quot;, &quot;anthropics&quot;, &quot;claude-code&quot;, or &quot;claude-mods&quot;, or put &quot;official&quot; beside &quot;claude&quot; or &quot;anthropic&quot;. Name it for what it does.</dd></dl></details></td>
-    <td class="reach"><span class="track" aria-label="Reach level 2: Writes or runs"><i class="on l2"></i><i class="on l2"></i><i class="on l2"></i><i class=""></i></span><span class="labels">writes files, reads env vars</span><span class="status bad">not verified</span></td>
+    <td class="reach"><span class="track" aria-label="Reach level 2: Writes or runs"><i class="on l2"></i><i class="on l2"></i><i class="on l2"></i><i class=""></i></span><span class="labels">writes files, reads env vars</span><span class="status">Validator warnings</span></td>
     <td class="num"><span class="mobile-label">Repository stars </span>17</td></tr>
 <tr id="bendrucker--claude--herdr" data-level="2" data-name="herdr bendrucker/claude Drive the herdr terminal workspace manager: panes, tabs, workspaces, and sibling coding agents" data-stars="17" data-listed="0">
     <td class="identity"><a class="mod-name" href="https://github.com/bendrucker/claude/tree/main/plugins/herdr">herdr<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><span class="repo">bendrucker/claude</span></td>
@@ -7305,10 +7305,10 @@ table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}th{
     <dt>Hooks</dt><dd><code>session.start, prompt.submit, tool.call, turn.complete, session.measure, command.run {command=cat}, ui.press {plugin=claude-cat, element=pet}, ui.press {plugin=claude-cat, element=hide}, ui.press {plugin=claude-cat, element=settings}, ui.press {plugin=claude-cat, element=set-coat}, ui.press {plugin=claude-cat, element=set-speed}, ui.press {plugin=claude-cat, element=set-scene}, ui.press {plugin=claude-cat, element=set-popups}, ui.press {plugin=claude-cat, element=set-hat}, ui.press {plugin=claude-cat, element=set-usage}, ui.render {component=AbovePrompt}</code></dd>
     <dt>API calls</dt><dd><code>$.clock.every, $.clock.now, $.command.register, $.session.usage, $.state.get, $.state.set, $.store.get, $.store.set, $.ui.blit, $.ui.resolve, $.ui.toast</code></dd>
 
-    <dt>Validation on 2.1.296</dt><dd>not verified</dd>
-    <dt>Validator output</dt><dd>Not found in this scan; retained pending weekly retirement review.</dd>
+    <dt>Validation on 2.1.296</dt><dd>fails on 2.1.296</dd>
+    <dt>Validator output</dt><dd>name: Plugin name &quot;claude-cat&quot; is reserved: it passes as one of Anthropic's own. A third party's plugin name cannot start with &quot;claude-&quot;, &quot;anthropic-&quot;, &quot;anthropics-&quot;, or &quot;cc-plugin-&quot;, be &quot;claude&quot;, &quot;anthropic&quot;, &quot;anthropics&quot;, &quot;claude-code&quot;, or &quot;claude-mods&quot;, or put &quot;official&quot; beside &quot;claude&quot; or &quot;anthropic&quot;. Name it for what it does. If this is one of Anthropic's own plugins, validate the marketplace that lists it.; types ./types/index.d.ts declares state: claude-cat.cat, claude-cat.motion, claude-cat.limits, claude-cat.isHidden, claude-cat.prefs, claude-cat.isSettingsOpen, claude-cat.identity, claude-cat.stats</dd>
     </dl></details></td>
-    <td class="reach"><span class="track" aria-label="Reach level 1: Reads files"><i class="on l1"></i><i class="on l1"></i><i class=""></i><i class=""></i></span><span class="labels">other: $.state.get, other: $.state.set, persists state, draws</span><span class="status bad">not verified</span></td>
+    <td class="reach"><span class="track" aria-label="Reach level 1: Reads files"><i class="on l1"></i><i class="on l1"></i><i class=""></i><i class=""></i></span><span class="labels">other: $.state.get, other: $.state.set, persists state, draws</span><span class="status bad">fails on 2.1.296</span></td>
     <td class="num"><span class="mobile-label">Repository stars </span>4</td></tr>
 <tr id="MohammedSaud404--rtl-terminal--rtl-terminal" data-level="1" data-name="rtl-terminal MohammedSaud404/rtl-terminal Right-to-left layout for Arabic, Hebrew, Persian, Urdu and every RTL language in the Claude Code terminal" data-stars="4" data-listed="0">
     <td class="identity"><a class="mod-name" href="https://github.com/MohammedSaud404/rtl-terminal">rtl-terminal<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><span class="repo">MohammedSaud404/rtl-terminal</span></td>
@@ -7747,10 +7747,10 @@ table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}th{
     <dt>Hooks</dt><dd><code>session.start, command.run {command=adhkar}, ui.render {component=PromptHint}, ui.render {component=Pane, requestId=adhkar}</code></dd>
     <dt>API calls</dt><dd><code>$.clock.every, $.clock.now, $.command.register, $.state.get, $.state.set, $.store.get, $.store.set, $.ui.close, $.ui.open, $.ui.resolve, $.ui.status, $.ui.toast</code></dd>
 
-    <dt>Validation on 2.1.296</dt><dd>not verified</dd>
-    <dt>Validator output</dt><dd>Not found in this scan; retained pending weekly retirement review.</dd>
+    <dt>Validation on 2.1.296</dt><dd>Passed</dd>
+
     </dl></details></td>
-    <td class="reach"><span class="track" aria-label="Reach level 1: Reads files"><i class="on l1"></i><i class="on l1"></i><i class=""></i><i class=""></i></span><span class="labels">other: $.state.get, other: $.state.set, persists state, draws</span><span class="status bad">not verified</span></td>
+    <td class="reach"><span class="track" aria-label="Reach level 1: Reads files"><i class="on l1"></i><i class="on l1"></i><i class=""></i><i class=""></i></span><span class="labels">other: $.state.get, other: $.state.set, persists state, draws</span></td>
     <td class="num"><span class="mobile-label">Repository stars </span>3</td></tr>
 <tr id="ashafizullah--claude-code-muslim-mods--daily-ayah" data-level="1" data-name="daily-ayah ashafizullah/claude-code-muslim-mods A verse of the Qur'an in a band above the prompt, a new one each session." data-stars="3" data-listed="0">
     <td class="identity"><a class="mod-name" href="https://github.com/ashafizullah/claude-code-muslim-mods/tree/main/daily-ayah">daily-ayah<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><span class="repo">ashafizullah/claude-code-muslim-mods</span></td>
@@ -7760,10 +7760,10 @@ table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}th{
     <dt>Hooks</dt><dd><code>session.start, command.run {command=ayah}, ui.render {component=AbovePrompt}</code></dd>
     <dt>API calls</dt><dd><code>$.clock.now, $.command.register, $.state.get, $.state.set, $.ui.resolve</code></dd>
 
-    <dt>Validation on 2.1.296</dt><dd>not verified</dd>
-    <dt>Validator output</dt><dd>Not found in this scan; retained pending weekly retirement review.</dd>
+    <dt>Validation on 2.1.296</dt><dd>Passed</dd>
+
     </dl></details></td>
-    <td class="reach"><span class="track" aria-label="Reach level 1: Reads files"><i class="on l1"></i><i class="on l1"></i><i class=""></i><i class=""></i></span><span class="labels">other: $.state.get, other: $.state.set, draws</span><span class="status bad">not verified</span></td>
+    <td class="reach"><span class="track" aria-label="Reach level 1: Reads files"><i class="on l1"></i><i class="on l1"></i><i class=""></i><i class=""></i></span><span class="labels">other: $.state.get, other: $.state.set, draws</span></td>
     <td class="num"><span class="mobile-label">Repository stars </span>3</td></tr>
 <tr id="ashafizullah--claude-code-muslim-mods--prayer-times" data-level="3" data-name="prayer-times ashafizullah/claude-code-muslim-mods Daily prayer times in the status line, with a reminder before each prayer and a toast when it begins." data-stars="3" data-listed="0">
     <td class="identity"><a class="mod-name" href="https://github.com/ashafizullah/claude-code-muslim-mods/tree/main/prayer-times">prayer-times<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><span class="repo">ashafizullah/claude-code-muslim-mods</span></td>
@@ -7773,10 +7773,10 @@ table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}th{
     <dt>Hooks</dt><dd><code>session.start, ui.render {component=PromptHint}, command.run {command=prayer-times}</code></dd>
     <dt>API calls</dt><dd><code>$.clock.every, $.clock.now, $.clock.sleep, $.command.register, $.config.set, $.http.fetch, $.state.get, $.state.set, $.store.get, $.store.set, $.ui.status, $.ui.toast</code></dd>
 
-    <dt>Validation on 2.1.296</dt><dd>not verified</dd>
-    <dt>Validator output</dt><dd>Not found in this scan; retained pending weekly retirement review.</dd>
+    <dt>Validation on 2.1.296</dt><dd>Passed</dd>
+
     </dl></details></td>
-    <td class="reach"><span class="track" aria-label="Reach level 3: Uses the network"><i class="on l3"></i><i class="on l3"></i><i class="on l3"></i><i class="on l3"></i></span><span class="labels">other: $.state.get, other: $.state.set, network, changes config, persists state, draws</span><span class="status bad">not verified</span></td>
+    <td class="reach"><span class="track" aria-label="Reach level 3: Uses the network"><i class="on l3"></i><i class="on l3"></i><i class="on l3"></i><i class="on l3"></i></span><span class="labels">other: $.state.get, other: $.state.set, network, changes config, persists state, draws</span></td>
     <td class="num"><span class="mobile-label">Repository stars </span>3</td></tr>
 <tr id="bbeygel--claude-code-tama--tama" data-level="2" data-name="tama bbeygel/claude-code-tama Tamagotchi companion: fed by finished turns, quips in the spinner, /pet for its card" data-stars="3" data-listed="0">
     <td class="identity"><a class="mod-name" href="https://github.com/bbeygel/claude-code-tama">tama<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><span class="repo">bbeygel/claude-code-tama</span></td>
@@ -20658,7 +20658,7 @@ table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}th{
 
     <dt>Validation on 2.1.296</dt><dd>Passed</dd>
 
-    <dt>Marketplace passed</dt><dd><a href="https://github.com/rennerdo30/agent-bridge/blob/40fbf0a4287b0d494fc2c1ce2fafde28b95bb786/.claude-plugin/marketplace.json">agent-bridge</a></dd></dl></details></td>
+    <dt>Marketplace passed</dt><dd><a href="https://github.com/rennerdo30/agent-bridge/blob/c08f4058bc528717d8a51741285e8acea0cfce7e/.claude-plugin/marketplace.json">agent-bridge</a></dd></dl></details></td>
     <td class="reach"><span class="track" aria-label="Reach level 3: Uses the network"><i class="on l3"></i><i class="on l3"></i><i class="on l3"></i><i class="on l3"></i></span><span class="labels">network, drives Claude, reads files, reads env vars</span></td>
     <td class="num"><span class="mobile-label">Repository stars </span>1</td></tr>
 <tr id="restante--claudio-tts--claudio-tts" data-level="2" data-name="claudio-tts restante/claudio-tts Spoken replies for Claude Code. Per-session mute (new sessions start muted), shared volume, speed and output devices." data-stars="1" data-listed="0">
@@ -22866,10 +22866,10 @@ table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}th{
     <dt>Hooks</dt><dd><code>session.end {reason=clear}, prompt.compose, agent.spawn, turn.step, tool.call</code></dd>
     <dt>API calls</dt><dd><code>$.agent.list, $.clock.now, $.ui.toast</code></dd>
 
-    <dt>Validation on 2.1.296</dt><dd>not verified</dd>
-    <dt>Validator output</dt><dd>Not found in this scan; retained pending weekly retirement review.</dd>
+    <dt>Validation on 2.1.296</dt><dd>Passed</dd>
+
     <dt>Marketplace passed</dt><dd><a href="https://github.com/AbhiramDwivedi/claude-mods/blob/77938ca29bbfad6f3c6807cef8c3a6cb2a2fca0a/.claude-plugin/marketplace.json">claude-mods</a></dd></dl></details></td>
-    <td class="reach"><span class="track" aria-label="Reach level 0: Draws & remembers"><i class="on l0"></i><i class=""></i><i class=""></i><i class=""></i></span><span class="labels">draws</span><span class="status bad">not verified</span></td>
+    <td class="reach"><span class="track" aria-label="Reach level 0: Draws & remembers"><i class="on l0"></i><i class=""></i><i class=""></i><i class=""></i></span><span class="labels">draws</span></td>
     <td class="num"><span class="mobile-label">Repository stars </span>0</td></tr>
 <tr id="abonckus--claude-code-al-syntax--al-syntax" data-level="2" data-name="al-syntax abonckus/claude-code-al-syntax Tree-sitter syntax highlighting for AL (Business Central) code blocks in Claude's replies" data-stars="0" data-listed="0">
     <td class="identity"><a class="mod-name" href="https://github.com/abonckus/claude-code-al-syntax">al-syntax<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><span class="repo">abonckus/claude-code-al-syntax</span></td>
@@ -27559,10 +27559,10 @@ table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}th{
     <dt>Hooks</dt><dd><code>session.start, prompt.submit, prompt.edit, ui.focus {component=AbovePrompt}, ui.close {id=bm-poc}, command.run {command=bm-diag-keys}, turn.start, turn.complete, ui.focus, session.append, ui.render {component=UserMessage}, ui.render {component=AssistantMessage}, command.run {command=bm-ids}, command.run {command=bm-pin}, command.run {command=bm-jump}, command.run {command=bm-mark}, command.run {command=bm-goto}, command.run {command=bm-prompts}, command.run {command=bm-read}, command.run {command=bm-pane}, command.run {command=bm-delmarks}, command.run {command=bm-marks}, command.run {command=bm-sel}, command.run {command=bm-timeline}, command.run {command=bm-env}, ui.render {component=PromptHint}, ui.render {component=AbovePrompt}, ui.render {component=Pane, requestId=bm-poc}</code></dd>
     <dt>API calls</dt><dd><code>$.clock.after, $.clock.every, $.clock.now, $.command.register, $.env.get, $.fs.exists, $.fs.list, $.fs.read, $.fs.write, $.process.run, $.prompt.read, $.session.cwd, $.session.id, $.session.version, $.state.get, $.state.set, $.store.get, $.store.set, $.ui.close, $.ui.copy, $.ui.focus, $.ui.log, $.ui.open, $.ui.panes, $.ui.resolve, $.ui.scroll, $.ui.selection, $.ui.toast</code></dd>
 
-    <dt>Validation on 2.1.296</dt><dd>not verified</dd>
-    <dt>Validator output</dt><dd>Not found in this scan; retained pending weekly retirement review.</dd>
+    <dt>Validation on 2.1.296</dt><dd>Passed</dd>
+
     </dl></details></td>
-    <td class="reach"><span class="track" aria-label="Reach level 2: Writes or runs"><i class="on l2"></i><i class="on l2"></i><i class="on l2"></i><i class=""></i></span><span class="labels">other: $.prompt.read, other: $.state.get, other: $.state.set, runs processes, writes files, reads files, reads env vars, persists state, draws</span><span class="status bad">not verified</span></td>
+    <td class="reach"><span class="track" aria-label="Reach level 2: Writes or runs"><i class="on l2"></i><i class="on l2"></i><i class="on l2"></i><i class=""></i></span><span class="labels">other: $.prompt.read, other: $.state.get, other: $.state.set, runs processes, writes files, reads files, reads env vars, persists state, draws</span></td>
     <td class="num"><span class="mobile-label">Repository stars </span>0</td></tr>
 <tr id="DazzleML--claude-bookmarks--bookmarks" data-level="2" data-name="bookmarks DazzleML/claude-bookmarks Bookmarks and vim-style marks inside Claude Code conversations: mark a line, jump back, keep a reading position, browse your prompts, and let Claude cite earlier places as clickable links." data-stars="0" data-listed="0">
     <td class="identity"><a class="mod-name" href="https://github.com/DazzleML/claude-bookmarks/tree/main/plugin">bookmarks<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><span class="repo">DazzleML/claude-bookmarks</span></td>

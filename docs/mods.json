@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T07:24:41.369Z",
+  "generated": "2026-10-12T07:31:23.226Z",
   "claudeVersion": "2.1.296",
   "repos": 1825,
   "mods": [
@@ -35750,11 +35750,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "warnings",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [
         {
@@ -35788,11 +35786,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "warnings",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "directory": null
     },
     {
@@ -68064,10 +68057,11 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
+        "status": "failed",
+        "claudeVersion": "2.1.296",
         "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
+          "name: Plugin name \"claude-cat\" is reserved: it passes as one of Anthropic's own. A third party's plugin name cannot start with \"claude-\", \"anthropic-\", \"anthropics-\", or \"cc-plugin-\", be \"claude\", \"anthropic\", \"anthropics\", \"claude-code\", or \"claude-mods\", or put \"official\" beside \"claude\" or \"anthropic\". Name it for what it does. If this is one of Anthropic's own plugins, validate the marketplace that lists it.",
+          "types ./types/index.d.ts declares state: claude-cat.cat, claude-cat.motion, claude-cat.limits, claude-cat.isHidden, claude-cat.prefs, claude-cat.isSettingsOpen, claude-cat.identity, claude-cat.stats"
         ]
       },
       "marketplaces": [],
@@ -68098,14 +68092,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "failed",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "name: Plugin name \"claude-cat\" is reserved: it passes as one of Anthropic's own. A third party's plugin name cannot start with \"claude-\", \"anthropic-\", \"anthropics-\", or \"cc-plugin-\", be \"claude\", \"anthropic\", \"anthropics\", \"claude-code\", or \"claude-mods\", or put \"official\" beside \"claude\" or \"anthropic\". Name it for what it does. If this is one of Anthropic's own plugins, validate the marketplace that lists it.",
-          "types ./types/index.d.ts declares state: claude-cat.cat, claude-cat.motion, claude-cat.limits, claude-cat.isHidden, claude-cat.prefs, claude-cat.isSettingsOpen, claude-cat.identity, claude-cat.stats"
-        ]
-      },
       "directory": null
     },
     {
@@ -72537,11 +72523,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "passed",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [],
       "compatibility": {
@@ -72569,11 +72553,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "passed",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "directory": null
     },
     {
@@ -72618,11 +72597,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "passed",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [],
       "compatibility": {
@@ -72648,11 +72625,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "passed",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "directory": null
     },
     {
@@ -72704,11 +72676,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "passed",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [],
       "compatibility": {
@@ -72737,11 +72707,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "passed",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "directory": null
     },
     {
@@ -184929,7 +184894,7 @@
       "id": "rennerdo30/agent-bridge:plugins/claude",
       "repo": "rennerdo30/agent-bridge",
       "path": "plugins/claude",
-      "sourceCommit": "40fbf0a4287b0d494fc2c1ce2fafde28b95bb786",
+      "sourceCommit": "c08f4058bc528717d8a51741285e8acea0cfce7e",
       "name": "agent-bridge",
       "description": "Talk to OpenAI Codex from Claude Code: live peer messaging over a local pipe, plus headless delegation (ask_codex).",
       "author": "rennerdo30",
@@ -184994,7 +184959,7 @@
       "sees": [],
       "draws": [],
       "stars": 1,
-      "pushedAt": "2026-10-11T16:42:08Z",
+      "pushedAt": "2026-10-12T07:30:12Z",
       "createdAt": "2026-09-27T14:19:32Z",
       "license": "MIT",
       "archived": false,
@@ -204010,11 +203975,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "passed",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [
         {
@@ -204046,11 +204009,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "passed",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "directory": null
     },
     {
@@ -245964,11 +245922,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.295",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "passed",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [],
       "compatibility": {
@@ -246006,12 +245962,7 @@
       "license": "GPL-3.0",
       "archived": false,
       "defaultBranch": "main",
-      "directory": null,
-      "lastKnownValidate": {
-        "status": "passed",
-        "claudeVersion": "2.1.295",
-        "errors": []
-      }
+      "directory": null
     },
     {
       "id": "DazzleML/claude-bookmarks:plugin",
@@ -257265,11 +257216,9 @@
         "hooks/breathe.tsx"
       ],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "warnings",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [
         {
@@ -257302,11 +257251,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "warnings",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "duplicateOf": "dvakatsiienko/frame:home/.claude/plugin-x/mods/x-mod-breather",
       "directory": null
     },
@@ -257351,11 +257295,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "warnings",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [],
       "compatibility": {
@@ -257383,11 +257325,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "warnings",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "duplicateOf": "dvakatsiienko/frame:home/.claude/plugin-x/mods/x-mod-guard",
       "directory": null
     },
@@ -257423,11 +257360,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "warnings",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [],
       "compatibility": {
@@ -257453,11 +257388,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "warnings",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "duplicateOf": "dvakatsiienko/frame:home/.claude/plugin-x/mods/x-mod-redact",
       "directory": null
     },
@@ -257570,11 +257500,9 @@
       ],
       "surfaceModules": [],
       "validate": {
-        "status": "unknown",
-        "claudeVersion": "2.1.291",
-        "errors": [
-          "Not found in this scan; retained pending weekly retirement review."
-        ]
+        "status": "warnings",
+        "claudeVersion": "2.1.296",
+        "errors": []
       },
       "marketplaces": [
         {
@@ -257630,11 +257558,6 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "lastKnownValidate": {
-        "status": "warnings",
-        "claudeVersion": "2.1.291",
-        "errors": []
-      },
       "duplicateOf": "dvakatsiienko/frame:home/.claude/plugin-x/mods/x-mod-stash",
       "directory": null
     },
@@ -322944,7 +322867,7 @@
         "AbovePrompt"
       ],
       "stars": 0,
-      "pushedAt": "2026-10-11T13:48:58Z",
+      "pushedAt": "2026-10-12T07:29:35Z",
       "createdAt": "2026-10-01T11:01:04Z",
       "license": "MIT",
       "archived": false,
@@ -323039,7 +322962,7 @@
         "AbovePrompt"
       ],
       "stars": 0,
-      "pushedAt": "2026-10-11T13:48:58Z",
+      "pushedAt": "2026-10-12T07:29:35Z",
       "createdAt": "2026-10-01T11:01:04Z",
       "license": "MIT",
       "archived": false,
